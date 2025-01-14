@@ -2,7 +2,7 @@ Type: Package
 Package: fastpng
 Title: Read and Write PNG Files with Configurable Decoder/Encoder
         Options
-Version: 0.1.5
+Version: 0.1.7
 Authors@R: c(
     person("Mike", "Cheng", , "mikefc@coolbutuseless.com", role = c("aut", "cre", "cph")),
     person("Randy408", , , "randy408@protonmail.com", role = c("aut", "cph"),
@@ -37,6 +37,8 @@ Description: Read and write PNG images with arrays, rasters, native
 License: MIT + file LICENSE
 URL: https://github.com/coolbutuseless/fastpng
 BugReports: https://github.com/coolbutuseless/fastpng/issues
+LinkingTo: colorfast
+Imports: colorfast (>= 1.0.1)
 Depends: R (>= 2.10)
 Suggests: knitr, png, rmarkdown, testthat (>= 3.0.0)
 VignetteBuilder: knitr
@@ -52,7 +54,7 @@ LazyData: true
 LazyDataCompression: xz
 RoxygenNote: 7.3.2
 NeedsCompilation: yes
-Packaged: 2024-08-31 11:19:45 UTC; mike
+Packaged: 2025-01-14 00:58:30 UTC; mike
 Author: Mike Cheng [aut, cre, cph],
   Randy408 [aut, cph] (Author of bundled libspng),
   The PNG Reference Library Authors [aut, cph],
@@ -68,4 +70,4 @@ Author: Mike Cheng [aut, cre, cph],
   Arm Holdings [cph] (NEON optimised palette expansion functions),
   Richard Townsend [ctb] (NEON optimised palette expansion functions)
 Repository: CRAN
-Date/Publication: 2024-09-04 13:20:06 UTC
+Date/Publication: 2025-01-14 03:10:01 UTC

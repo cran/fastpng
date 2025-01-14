@@ -49,8 +49,8 @@ indices[1:10, 1:10]
 palette[1:10]
 
 ## ----eval=FALSE---------------------------------------------------------------
-#  tmp <- tempfile()
-#  fastpng::write_png(image = indices, palette = palette, file = tmp)
+# tmp <- tempfile()
+# fastpng::write_png(image = indices, palette = palette, file = tmp)
 
 ## ----echo=FALSE, fig.height = 3-----------------------------------------------
 fastpng::write_png(image = indices, palette = palette) |>
